@@ -1,0 +1,11 @@
+applications:
+- services:
+  - Speech To Text-um
+  disk_quota: 1024M
+  host: moviereviews
+  name: moviereviews
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
+  command: node app.js
